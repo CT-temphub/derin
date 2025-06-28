@@ -6,8 +6,8 @@ app.use(express.json()); // for parsing JSON
 
 // Connect to MongoDB
 mongoose
-  .connect("mongodb+srv://christeenotelfin1:shitass%40cluster0.6isbdbc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-  
+  .connect("mongodb+srv://christeenotelfin1:shitass@cluster0.6isbdbc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.error("MongoDB error:", err));
 
